@@ -1,0 +1,7 @@
+{% for navitem in site.data.navitems %}
+<li>
+	<a href="{{ navitem.href | replace: '!EVENTBRITE!', site.eventbrite }}" {% if navitem.target %}target="{{navitem.target}}"{%endif%} >
+		{{navitem.text}}
+	</a>
+</li>
+{% endfor %}

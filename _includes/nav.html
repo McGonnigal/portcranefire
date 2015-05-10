@@ -1,0 +1,45 @@
+{% if false %}
+<div id="navPills" class="container hidden-xs">
+	<div class="row">
+		<div class="col-xs-12">
+
+			<ul class="nav nav-pills pull-right">
+				{% include navitems.html %}
+			</ul>
+		</div>
+	</div>
+</div>
+{% endif %}
+
+{% if true %}
+<nav id="navBar" class="navbar navbar-default">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="{{ "/" | prepend: site.baseurl }}">
+				<!-- <img class="hidden-xs" alt="{{ site.title }}" src="{{site.baseurl}}/images/logo.png"> -->
+				<span class="courier">{{ site.title }}</span>
+			</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+			<ul class="nav navbar-nav navbar-right">
+				{% include navitems.html %}
+				<li><a href="https://www.facebook.com/pages/Port-Crane-Fire-Company-Inc/190118705352" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>
+				<li><a href="https://twitter.com/portcranefireco" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+			</ul>
+
+			<!-- <ul class="nav navbar-nav navbar-right"></ul> -->
+
+		</div>
+	</div>
+</nav>
+{% endif %}

@@ -1,0 +1,20 @@
+# Site settings
+title: Port Crane Fire Company
+
+# email: contact@portcranefire.com
+email: fire@kaymic.com
+
+paginate: 10
+paginate_path: "/news/page:num"
+
+description: >
+  Welcome to the new Port Crane Fire website
+
+baseurl: "/portcranefire" # the subpath of your site, e.g. /blog/
+url: "http://portcranefire.com" # the base hostname & protocol for your site
+
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+markdown: kramdown

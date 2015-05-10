@@ -1,0 +1,79 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+@import "font-awesome";
+
+@import "bootswatch/simplex/variables";
+@import "bootstrap";
+@import "bootswatch/simplex/bootswatch";
+
+body {
+	background: #f1f1f1;
+}
+
+#navBar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+#homeJumbo {
+
+	background-image: url("{{site.baseurl}}/images/bg-texture.jpg");
+
+	// background-image: url(http://ww2.hdnux.com/photos/30/76/27/6546937/3/rawImage.jpg);
+	// background-position: center center;
+	// background-size: cover;
+	// background-repeat: no-repeat;
+
+	color: #fff;
+
+	h2 {
+		color: #fff;
+		small {
+			font-family: $font-family-sans-serif;
+			font-size: 45%;
+			color: #ddd;
+			// text-transform: uppercase;
+		}
+	}
+
+}
+
+#announcements {
+
+}
+
+// all but xs
+@media (min-width: $screen-sm-min) {
+	// nav
+
+	#navBar {
+
+	}
+
+	footer {
+		nav {
+			text-align: right !important;
+		}
+	}
+}
+
+// news images
+.media-list.news .media-object { width: 96px; max-width: 64px; }
+@media (min-width: 768px) {
+	.media-list.news .media-object { max-width: 96px; }
+}
+
+// logo
+// #logo{margin-bottom: 15px;}
+#logo{margin-top: 15px;}
+// @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) { #logo{margin-top: 125px;} }
+// @media (min-width: $screen-md-min) and (max-width: $screen-md-max) { #logo{margin-top: 90px;} }
+// @media (min-width: $screen-lg-min) { #logo{margin-top: 70px;} }
+
+.fb-comments, .fb-comments iframe[style], .fb-comments span {
+	width: 100% !important;
+}

@@ -1,0 +1,50 @@
+<form id="contact" class="form-horizontal" action="//formspree.io/{{site.email}}" method="POST">
+	<fieldset>
+
+		<legend>IF AN EMERGENCY DIAL 911</legend>
+
+		<input type="hidden" name="_subject" value="Hurricane Expo Contact Submission!" />
+		<input type="hidden" name="_next" value="{{ "/contact/thanks" | prepend: site.baseurl }}" />
+
+		<div class="form-group">
+			<label for="first" class="col-lg-3 control-label">Name *</label>
+			<div class="col-lg-9">
+				<div class="row">
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="first" placeholder="First Name" required>
+					</div>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" name="last" placeholder="Last Name" required>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="_replyto" class="col-lg-3 control-label">Email Address *</label>
+			<div class="col-lg-9">
+				<input type="email" class="form-control" name="_replyto" placeholder="Email" required>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="org" class="col-lg-3 control-label">Subject *</label>
+			<div class="col-lg-9">
+				<input type="text" class="form-control" name="_subject" placeholder="Subject" required>
+			</div>
+		</div>
+		<div class="form-group">
+			<label for="message" class="col-lg-3 control-label">Question or Comment *</label>
+			<div class="col-lg-9">
+				<textarea class="form-control" name="message" placeholder="Message" rows="5" required></textarea>
+			</div>
+		</div>
+
+		<div class="form-group">
+			<div class="col-lg-9 col-lg-offset-3">
+				<input type="text" name="_gotcha" style="display:none" />
+				<button type="reset" class="btn btn-default">Reset</button>
+				<button type="submit" class="btn btn-success">Submit</button>
+			</div>
+		</div>
+
+	</fieldset>
+</form>
