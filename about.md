@@ -4,15 +4,6 @@ title: Port Crane Fire Company
 permalink: /about/
 ---
 
-<dl class="dl-horizontal">
-	<dt>Members</dt>
-	<dd>30</dd>
-	<dt>Auxillary</dt>
-	<dd>10</dd>
-	<dt>Medical Team</dt>
-	<dd>Providing Basic Life Support</dd>
-</dl>
-
 ## Officers
 [Chief Thomas Sheridan](mailto:chief@portcranefire.com)
 
@@ -86,6 +77,15 @@ Jeff Eldred
 John Eldred
 
 Ernest Yongs
+
+<dl class="dl-horizontal">
+	<dt>Members</dt>
+	<dd>30</dd>
+	<dt>Auxillary</dt>
+	<dd>10</dd>
+	<dt>Medical Team</dt>
+	<dd>Providing Basic Life Support</dd>
+</dl>
 
 <hr>
 <strong>Contact Dean Horton at (607) 648-8788 for information on renting the Hall.</strong>
