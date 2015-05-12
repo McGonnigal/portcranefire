@@ -1,8 +1,7 @@
 # Site settings
 title: Port Crane Fire Company
 
-# email: contact@portcranefire.com
-email: fire@kaymic.com
+email: contact@portcranefire.com
 
 paginate: 10
 paginate_path: "/news/page:num"
