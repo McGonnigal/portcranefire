@@ -10,8 +10,8 @@ description: >
   Welcome to the new Port Crane Fire website
 
 baseurl: ""
-# baseurl: "/portcranefire"
-url: "http://portcranefire.com"
+baseurl: "/portcranefire"
+# url: "http://portcranefire.com"
 
 # twitter_username: jekyllrb
 # github_username:  jekyll
